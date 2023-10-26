@@ -1,4 +1,5 @@
 import './Home.css'
+import {Formulario} from '../Formulario/Formulario'
 
 export function Home() {
 
@@ -112,46 +113,46 @@ export function Home() {
 
           </div>
         </div>
-        <div className="row row-cols-1 row-cols-md-3 my-3">
-          <div className="col text-center">
+        <div className="row row-cols-1 row-cols-md-3 my-3 fw-bold ">
+          <div className="col textstart">
             <div className="card h-100 p-3 shadow bg-warning-subtle">
               <img src="../../src/assets/img/targeta1.jpg" alt="" className='img-fluid w-100' />
 
-              <h3 className='text-center bold'>Nico robin</h3>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat neque alias modi ab quia ad, architecto incidunt voluptatem cupiditate quo iste vitae amet quisquam veniam eius. Modi sunt fugiat delectus adipisci quia commodi dolorem voluptate perferendis iusto animi consectetur tempora sed quod laboriosam iure quam a esse dolore rem, cupiditate similique! Laborum amet aut expedita officia perspiciatis rem maxime quaerat omnis cumque ullam animi eaque, dicta id libero?</p>
+              <h3 className='text-center bold '>Nico robin</h3>
+              <p className='text-danger-emphasis text-danger-emphasis'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat neque alias modi ab quia ad, architecto incidunt voluptatem cupiditate quo iste vitae amet quisquam veniam eius. Modi sunt fugiat delectus adipisci quia commodi dolorem voluptate perferendis iusto animi consectetur tempora sed quod laboriosam iure quam a esse dolore rem, cupiditate similique! Laborum amet aut expedita officia perspiciatis rem maxime quaerat omnis cumque ullam animi eaque, dicta id libero?</p>
               <hr />
-              <h5 className='fw-bold text-success text-center'>SE BUSCA VIVO O MUERTO </h5>
-              <h4 className='fw-bold text-success text-center'>$70.000.000.000</h4>
-              <button className='btn btn-primary'>
-              <i class="bi bi-coin"></i>
+              <h5 className='fw-bold text-danger-emphasis text-center'>SE BUSCA VIVO O MUERTO </h5>
+              <h4 className='fw-bold text-danger-emphasis text-center'>$70.000.000.000</h4>
+              <button className='btn btn-danger text-warning'>
+                <i class="bi bi-coin"></i>
                 Ampliar</button>
             </div>
 
           </div>
-          <div className="col text-center">
+          <div className="col text-start ">
             <div className="card h-100 p-3 shadow bg-warning-subtle">
               <img src="../../src/assets/img/targeta2.jpg" alt="" className='img-fluid w-100' />
-              <h3 className='text-center bold'>Wampis</h3>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat neque alias modi ab quia ad, architecto incidunt voluptatem cupiditate quo iste vitae amet quisquam veniam eius. Modi sunt fugiat delectus adipisci quia commodi dolorem voluptate perferendis iusto animi consectetur tempora sed quod laboriosam iure quam a esse dolore rem, cupiditate similique! Laborum amet aut expedita officia perspiciatis rem maxime quaerat omnis cumque ullam animi eaque, dicta id libero?</p>
+              <h3 className='text-center bold text-danger-emphasis'>Wampis</h3>
+              <p className='text-danger-emphasis'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat neque alias modi ab quia ad, architecto incidunt voluptatem cupiditate quo iste vitae amet quisquam veniam eius. Modi sunt fugiat delectus adipisci quia commodi dolorem voluptate perferendis iusto animi consectetur tempora sed quod laboriosam iure quam a esse dolore rem, cupiditate similique! Laborum amet aut expedita officia perspiciatis rem maxime quaerat omnis cumque ullam animi eaque, dicta id libero?</p>
               <hr />
-              <h5 className='fw-bold text-success text-center'>SE BUSCA VIVO O MUERTO </h5>
-              <h4 className='fw-bold text-success text-center'>$30.000.000.000</h4>
-              <button className='btn btn-primary'>
-              <i class="bi bi-coin"></i>
+              <h5 className='fw-bold text-danger-emphasis text-center'>SE BUSCA VIVO O MUERTO </h5>
+              <h4 className='fw-bold text-danger-emphasis text-center'>$30.000.000.000</h4>
+              <button className='btn btn-danger text-warning'>
+                <i class="bi bi-coin"></i>
                 Ampliar</button>
             </div>
 
           </div>
-          <div className="col text-center">
+          <div className="col text-start">
             <div className="card h-100 p-3 shadow bg-warning-subtle">
               <img src="../../src/assets/img/targeta3.png" alt="" className='img-fluid w-100' />
-              <h3 className='text-center bold'>Zoro Roronoa</h3>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat neque alias modi ab quia ad, architecto incidunt voluptatem cupiditate quo iste vitae amet quisquam veniam eius. Modi sunt fugiat delectus adipisci quia commodi dolorem voluptate perferendis iusto animi consectetur tempora sed quod laboriosam iure quam a esse dolore rem, cupiditate similique! Laborum amet aut expedita officia perspiciatis rem maxime quaerat omnis cumque ullam animi eaque, dicta id libero?</p>
+              <h3 className='text-center bold text-danger-emphasis'>Zoro Roronoa</h3>
+              <p className='text-danger-emphasis'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat neque alias modi ab quia ad, architecto incidunt voluptatem cupiditate quo iste vitae amet quisquam veniam eius. Modi sunt fugiat delectus adipisci quia commodi dolorem voluptate perferendis iusto animi consectetur tempora sed quod laboriosam iure quam a esse dolore rem, cupiditate similique! Laborum amet aut expedita officia perspiciatis rem maxime quaerat omnis cumque ullam animi eaque, dicta id libero?</p>
               <hr />
-              <h5 className='fw-bold text-success text-center'>SE BUSCA VIVO O MUERTO </h5>
-              <h4 className='fw-bold text-success text-center'>$5.000.000.000</h4>
-              <button className='btn btn-primary'>
-              <i class="bi bi-coin"></i>
+              <h5 className='fw-bold text-danger-emphasis text-center'>SE BUSCA VIVO O MUERTO </h5>
+              <h4 className='fw-bold text-danger-emphasis text-center'>$5.000.000.000</h4>
+              <button className='btn btn-danger text-warning'>
+                <i class="bi bi-coin"></i>
                 Ampliar</button>
             </div>
 
@@ -159,20 +160,33 @@ export function Home() {
         </div>
       </div>
 
+      <section className=''>
+        <div className="container ">
+          <div className="row">
+            <div className="col-12">
+              
+<Formulario></Formulario>
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
       <footer>
         <div className="container-fluid bg-dark text-white">
           <div className="row p-5">
             <div className="col-6 text-end border-end">
-              
+
               <h5>Medellin-colombia</h5>
               <h5>Todos los derechos reservados &copy;</h5>
             </div>
             <div className="col-6 aling-self-center">
-            <i class="bi bi-instagram p-2 fs-4"></i>
-            <br />
-            <i class="bi bi-whatsapp p-2 fs-4"></i>
-            <br />
-            <i class="bi bi-twitter-x p-2 fs-4"></i>
+              <i class="bi bi-instagram p-2 fs-4"></i>
+              <br />
+              <i class="bi bi-whatsapp p-2 fs-4"></i>
+              <br />
+              <i class="bi bi-twitter-x p-2 fs-4"></i>
             </div>
           </div>
         </div>
